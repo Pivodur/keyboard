@@ -3,7 +3,25 @@
 @import 'reset';
 @import 'global';
 
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
 
+.row {
+  display: flex;
+  gap: 7px;
+}
+
+.symbol {
+  font-size: 24px;
+  padding: 15px;
+  border-radius: 5px;
+  color: #6C2D2C;
+  background-color: #F1DCC9;
+  cursor: pointer;
+}
 
 
 
